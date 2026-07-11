@@ -1,0 +1,1 @@
+document.querySelectorAll('.bar div').forEach(e=>{let w=e.style.width;e.style.width='0';setTimeout(()=>e.style.width=w,200)});
